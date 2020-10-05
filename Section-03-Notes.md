@@ -5,9 +5,6 @@
     - Don't confuse simple with easy
     - const keyword
       - PI
-      - meal = {
-        description: 'A'
-      }
   - [ ] 13. Updating objects, in an immutable way 8min
     - State changes
       - Things your program remembers/tracks
@@ -35,6 +32,8 @@
       description: meal.description,
       calories: 600
     }
+    
+    console.log(meal, udpatedMeal);
     ```
     
   - [ ] 14. Updating arrays, in an immutable way 10min
