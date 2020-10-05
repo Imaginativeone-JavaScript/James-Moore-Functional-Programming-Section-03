@@ -23,7 +23,13 @@
     }
     ```
     
-    How can I update this meal record without mutating it?
+    How can I add a Calorie Count to this meal record without mutating it?
+    
+    One of the simplest approaches is to make a new meal, copy the properties from the original meal, and then adding/updating the properties that need changes.
+    
+    For example,
+    
+    
     
   - [ ] 14. Updating arrays, in an immutable way 10min
   - [ ] 15. Summarize information in an array 9min
