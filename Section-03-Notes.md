@@ -1,0 +1,5 @@
+- [ ] Section 3: Immutable Data Structures 0/4 | 30min
+  - [ ] 12. Immutable Data 4min
+  - [ ] 13. Updating objects, in an immutable way 8min
+  - [ ] 14. Updating arrays, in an immutable way 10min
+  - [ ] 15. Summarize information in an array 9min
