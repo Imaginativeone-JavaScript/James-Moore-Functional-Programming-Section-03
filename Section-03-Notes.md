@@ -29,7 +29,13 @@
     
     For example,
     
-    
+    ```javascript
+    const updatedMeal = {
+      id: meal.id,
+      description: meal.description,
+      calories: 600
+    }
+    ```
     
   - [ ] 14. Updating arrays, in an immutable way 10min
   - [ ] 15. Summarize information in an array 9min
