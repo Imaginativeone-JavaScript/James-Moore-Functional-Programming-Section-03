@@ -1,4 +1,5 @@
-- [ ] Section 3: Immutable Data Structures 0/4 | 30min
+# Section 3: Immutable Data Structures 0/4 | 30min
+
   - [ ] 12. Immutable Data 4min
     - Simple(r)
     - Less Complicated Code
@@ -36,9 +37,9 @@
     console.log(meal, udpatedMeal);
     ```
     
-    **The Spread Operator**
+    ## The Spread Operator
 
-    Regular Use
+    ### Regular Use
 
     ```javascript
     const updatedMeal = {
@@ -49,7 +50,7 @@
     console.log(meal, udpatedMeal);
     ```
 
-    Changing a property takes precedence over the original description.
+    ### Changing a property takes precedence over the original description.
 
     ```javascript
     const updatedMeal = {
