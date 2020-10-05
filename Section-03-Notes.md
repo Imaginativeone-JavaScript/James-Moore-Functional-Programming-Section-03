@@ -36,5 +36,30 @@
     console.log(meal, udpatedMeal);
     ```
     
+    **The Spread Operator**
+
+    Regular Use
+
+    ```javascript
+    const updatedMeal = {
+      ...meal,
+      calories: 600
+    }
+    
+    console.log(meal, udpatedMeal);
+    ```
+
+    Changing a property takes precedence over the original description.
+
+    ```javascript
+    const updatedMeal = {
+      id: meal.id,
+      description: "Brunch",
+      calories: 600
+    }
+    
+    console.log(meal, udpatedMeal);
+    ```
+
   - [ ] 14. Updating arrays, in an immutable way 10min
   - [ ] 15. Summarize information in an array 9min
