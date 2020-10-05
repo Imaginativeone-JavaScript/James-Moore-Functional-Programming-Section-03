@@ -39,7 +39,7 @@
     
     ## The Spread Operator
 
-    ### Regular Use
+    ### Adding a Property
 
     ```javascript
     const updatedMeal = {
@@ -50,7 +50,9 @@
     console.log(meal, udpatedMeal);
     ```
 
-    ### Changing a property takes precedence over the original description.
+    ### Updating a property
+    
+    #### takes precedence over the original description.
 
     ```javascript
     const updatedMeal = {
@@ -62,5 +64,16 @@
     console.log(meal, udpatedMeal);
     ```
 
+    ### Deleting a Property
+    
+    #### Destructuring + The Rest Syntax
+    
+    ##### Destructuring
+    
+    const description = updatedMeal.description;
+    const calories = updatedMeal.calories;
+    
+    const ()
+    
   - [ ] 14. Updating arrays, in an immutable way 10min
   - [ ] 15. Summarize information in an array 9min
