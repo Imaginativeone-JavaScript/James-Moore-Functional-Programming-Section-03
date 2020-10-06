@@ -122,7 +122,7 @@
     
     **What if I wanted to updated the description of the object in the meals array with the id of 2?**
     
-    The **map function** array.map(fn)
+    The **map function** array.map(transformation-function)
     
     **An Example**
     
@@ -134,6 +134,33 @@
     function double(number) {
       return number * 2;
     }
+    ```
+    
+    The map function - to the rescue
+    
+    ```javascript
+    const numbers = [1, 2, 3];
+    
+    function double(number) {
+      return number * 2;
+    }
+    
+    const doubledNumbers = numbers.map(double);
+    ```
+    
+    Step through what happens when this code executes:
+    
+    The call to map will start by grabbing the first element in the numbers array, the "1", and passes it into our double function.
+    
+    ```javascript
+    const numbers = [1, 2, 3];
+    
+    function double(1) { // First pass works on the first element
+      return number * 2;
+    } // This function functions takes the parameter, 1, multiplies it by 2, and then returns 1 * 2;
+      // The map function creates a new array, and stores a 2 inside of it.
+    
+    const doubledNumbers = numbers.map(double);
     ```
     
   - [ ] 15. Summarize information in an array 9min
