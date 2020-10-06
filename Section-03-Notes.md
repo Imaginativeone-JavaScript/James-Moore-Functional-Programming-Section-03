@@ -96,4 +96,30 @@
     ```
     
   - [ ] 14. Updating arrays, in an immutable way 10min
+  
+    **How can I modify Arrays in a mutable way?**
+    
+    ```javascript
+    // An array of meal objects
+    const meals = [
+      { id: 1, description: 'Breakfast', calories: 420 },
+      { id: 2, description: 'Lunch', calories: 520 }
+    ];
+    
+    // Another meal object, all by itself
+    const meal = { 
+      id: 3, 
+      description: 'Snack', 
+      calories: 100
+    };
+    ```
+    
+    **Add the meal object to a new array that contains the objects from the meal array.**
+    
+    ```javascript
+    const updatedMeals = [...meals, meal];
+    ```
+    
+    
+    
   - [ ] 15. Summarize information in an array 9min
