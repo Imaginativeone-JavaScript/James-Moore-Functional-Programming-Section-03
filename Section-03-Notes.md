@@ -52,7 +52,7 @@
 
     ### Updating a property
     
-    #### takes precedence over the original description.
+    #### takes precedence over the original description
 
     ```javascript
     const updatedMeal = {
@@ -70,10 +70,30 @@
     
     ##### Destructuring
     
+    **Instead of this:**
+    ```javascript
     const description = updatedMeal.description;
     const calories = updatedMeal.calories;
     
-    const ()
+    console.log(description, calories);
+    ```
+    
+    **I can do this:**
+    ```javascript
+    const (description, calories) = updatedMeal;
+    
+    console.log(description, calories);
+    ```
+    
+    **Removing the Property**
+    ```javascript
+    const (id, ...mealWithoutId) = updatedMeal;
+    
+    // This pulls "id" out into its own constant
+    // The rest of the updatedMeal properties are collected into the mealWithoutId constant
+    
+    console.log(mealWithoutId);
+    ```
     
   - [ ] 14. Updating arrays, in an immutable way 10min
   - [ ] 15. Summarize information in an array 9min
