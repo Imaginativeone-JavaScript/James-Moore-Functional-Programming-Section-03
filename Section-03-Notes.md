@@ -120,6 +120,8 @@
     const updatedMeals = [...meals, meal];
     ```
     
+    **What if I wanted to updated the description of the object in the meals array with the id of 2?**
     
-    
+    The **map function**
+
   - [ ] 15. Summarize information in an array 9min
