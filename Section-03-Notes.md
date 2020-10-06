@@ -122,6 +122,18 @@
     
     **What if I wanted to updated the description of the object in the meals array with the id of 2?**
     
-    The **map function**
-
+    The **map function** array.map(fn)
+    
+    **An Example**
+    
+    Say that I need to double every number in the array:
+    ```javascript
+    const numbers = [1, 2, 3];
+    
+    // How do I apply this "double" function to every item in the array?
+    function double(number) {
+      return number * 2;
+    }
+    ```
+    
   - [ ] 15. Summarize information in an array 9min
